@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  padding: 10px;
+  background: #ffffff;
+  min-height: 200px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  .image-container {
+    border-radius: 50px;
+    img {
+      min-height: 250px;
+      width: 100px;
+    }
+  }
+  .product-name {
+    width: 50%;
+    padding: 10px;
+  }
+  .add-to-cart {
+    button {
+      width: 70px;
+      height: 30px;
+      background: blue;
+      color: #ffffff;
+      &:hover{
+        background:red;
+      }
+    }
+    
+  }
+}
+@media only screen and (min-width: 720px) {
+  .card {
+    padding: 10px 20px;
+    .product-name {
+      float: left;
+      padding: 10px;
+      text-align: initial;
+      width: 78%;
+    }
+  }
+}

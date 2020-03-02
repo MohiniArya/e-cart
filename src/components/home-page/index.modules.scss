@@ -1,0 +1,13 @@
+.HomePage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    .page-content{
+        display: flex;
+        position: relative;
+        .product-filter{
+            display: flex;
+            flex-direction: column
+        }
+    }
+}
