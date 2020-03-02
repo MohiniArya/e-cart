@@ -16,7 +16,6 @@ const HomePage = () => {
 
   const fetchData = async () => {
     const response = await axios.get("/api/products");
-    console.log(response.data.products);
     localStorage.setItem("products", JSON.stringify(response.data.products));
     if (name === "Highest to lowest") {
       let sortedData = response.data.products.sort((a, b) => {
@@ -37,25 +36,26 @@ const HomePage = () => {
   }, []);
 
   useEffect(() => {
+      debugger
     if (data.length > 0) {
       if (name === "Highest to lowest") {
-        let sortedData = data.sort((a, b) => {
-          return a.price - b.price;
-        });
-        setData(sortedData);
-      }
-      if (name === "Lowest to highest") {
         let sortedData = data.sort((a, b) => {
           return b.price - a.price;
         });
         setData(sortedData);
       }
+      if (name === "Lowest to highest") {
+        let sortedData = data.sort((a, b) => {
+          return a.price - b.price;
+        });
+        setData(sortedData);
+      }
     }
-  }, [data, name]);
+  }, [data, name,badge]);
   return (
     <div>
       <div className="HomePage">
-        <Header data={data} setData={setData} badge={badge}  />
+        <Header data={data} setData={setData} badge={badge} />
         <div className="page-content">
           <Categories
             data={data}
