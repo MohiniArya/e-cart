@@ -12,6 +12,8 @@ const Categories = props => {
   ];
   const [screener,setScreener] = useState("All")
   const getNewList = name => {
+    props.setName("Select") 
+    props.setIsCategoryListOpen(false);
     setScreener(name)
     let Products = localStorage.getItem("products")
       ? JSON.parse(localStorage.getItem("products"))
