@@ -2,13 +2,15 @@ import React from "react";
 import "./index.modules.scss";
 import { withRouter } from "react-router-dom";
 const Cards = props => {
-  const { productInfo ,setBadge,badge} = props;
-  const { id, name, category, price, description } = productInfo;
+  const { productInfo ,setBadge} = props;
+  const { id, name, price, description } = productInfo;
   const onHandleAdd = e => {
     let newData = localStorage.getItem("cart")
       ? JSON.parse(localStorage.getItem("cart"))
       : [];
     newData.push(productInfo);
+    debugger
+    setBadge(newData.length)
     localStorage.setItem("cart", JSON.stringify(newData));
   };
   

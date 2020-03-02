@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./index.modules.scss";
 import { withRouter } from "react-router-dom";
 const SortAndFilter = props => {
