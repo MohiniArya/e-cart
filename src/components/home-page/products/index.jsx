@@ -3,7 +3,8 @@ import "./index.modules.scss";
 import Cards from "./cards";
 import { withRouter } from "react-router-dom";
 const ProductContainer = props => {
-  const { data , setBadge, badge} = props;
+  const { data ,setBadge, badge} = props;
+
   return (
     <div className="Products-list">
       {data &&

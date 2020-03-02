@@ -7,7 +7,17 @@
         position: relative;
         .product-filter{
             display: flex;
-            flex-direction: column
+            flex-direction: column;
+            border-left: 0.1px solid black;
         }
     }
 }
+@media only screen and (min-width: 720px){
+    .HomePage{
+        .page-content{
+            .product-filter{
+                border-left: 0.5px solid black;
+            }
+        }
+    }
+    }

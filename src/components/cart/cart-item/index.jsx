@@ -17,13 +17,13 @@ const CartItem = (props) =>{
     return(
         <div className="cart-items" key={id} >
          <div className="remove-icon" onClick={e => onHandleRemove(e)}><img src="/images/close-icon.png" alt="logo"/></div>   
-        <div>
+        <div className="logo-box">
              <img src="/images/logo.png" alt="logo"/>
          </div>
          <div className="item-title">
              {name}
          </div>
-         <div>Price Rs{price}</div>
+         <div className="price-box">Price Rs {price}</div>
         </div>
     )
 } 
