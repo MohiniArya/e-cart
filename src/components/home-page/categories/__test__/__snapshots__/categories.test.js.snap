@@ -17,7 +17,7 @@ exports[`Actions Snapshots matches the default snapshot 1`] = `
     className="categories-label"
   >
     <input
-      defaultChecked={true}
+      defaultChecked={false}
       id={0}
       name="formHorizontalRadios"
       onClick={[Function]}

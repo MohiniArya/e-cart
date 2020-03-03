@@ -15,7 +15,6 @@ const CartItem = props => {
       localStorage.setItem("cart", JSON.stringify(newData));
     }
   };
-
   return (
     <div className="cart-items" key={id}>
       <div className="remove-icon" onClick={e => onHandleRemove(e)}>

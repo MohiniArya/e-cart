@@ -5,6 +5,7 @@ import ProductContainer from "./products";
 import Categories from "./categories";
 import "./index.modules.scss";
 import SortAndFilter from "./sort-and-filter";
+
 const HomePage = () => {
   const [data, setData] = useState([]);
   const [name, setName] = useState("select");
