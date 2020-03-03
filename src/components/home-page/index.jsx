@@ -31,18 +31,19 @@ const HomePage = () => {
       });
       setData(sortedData);
     }
-    if(name==="select"){
-        setData(response.data.products)
+    if (name === "select") {
+      setData(response.data.products);
     }
   };
+
   useEffect(() => {
-       fetchData();
+    fetchData();
   }, []);
 
   return (
     <div>
       <div className="HomePage">
-        <Header data={data} setData={setData} badge={badge} setName={setName}/>
+        <Header data={data} setData={setData} badge={badge} setName={setName} />
         <div className="page-content">
           <Categories
             setName={setName}
@@ -52,14 +53,16 @@ const HomePage = () => {
             setIsCategoryListOpen={setIsCategoryListOpen}
           />
           <div className="product-filter">
-            {data.length > 0 && <SortAndFilter
-              name={name}
-              setName={setName}
-              data={data}
-              setData={setData}
-              isCategoryListOpen={isCategoryListOpen}
-              setIsCategoryListOpen={setIsCategoryListOpen}
-            />}
+            {data.length > 0 && (
+              <SortAndFilter
+                name={name}
+                setName={setName}
+                data={data}
+                setData={setData}
+                isCategoryListOpen={isCategoryListOpen}
+                setIsCategoryListOpen={setIsCategoryListOpen}
+              />
+            )}
             <ProductContainer
               data={data}
               setData={setData}

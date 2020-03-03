@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Actions Snapshots matches the default snapshot 1`] = `
+<div
+  className="sort-container"
+>
+  <div
+    className="category-link"
+    onClick={[Function]}
+  >
+    Choose Categories
+  </div>
+  <div
+    className="header-sort"
+  >
+    Sort By
+  </div>
+  <select
+    className="custom-select"
+    onChange={[Function]}
+  >
+    <option
+      value="Select"
+    >
+      Select
+    </option>
+    <option
+      value="Highest to lowest"
+    >
+      Highest to lowest
+    </option>
+    <option
+      value="Lowest to highest"
+    >
+      Lowest to highest
+    </option>
+  </select>
+</div>
+`;

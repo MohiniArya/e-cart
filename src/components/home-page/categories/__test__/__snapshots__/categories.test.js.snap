@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Actions Snapshots matches the default snapshot 1`] = `
+<div
+  className="multiple-categories"
+>
+  <div
+    className="close-category-icon"
+    onClick={[Function]}
+  >
+    <img
+      alt="close-icon"
+      src="/images/close-icon.png"
+    />
+  </div>
+  <div
+    className="categories-label"
+  >
+    <input
+      defaultChecked={true}
+      id={0}
+      name="formHorizontalRadios"
+      onClick={[Function]}
+      type="radio"
+      value="All"
+    />
+    <label
+      className="radio-lable"
+    >
+      All
+    </label>
+  </div>
+  <div
+    className="categories-label"
+  >
+    <input
+      defaultChecked={false}
+      id={1}
+      name="formHorizontalRadios"
+      onClick={[Function]}
+      type="radio"
+      value="Electronics"
+    />
+    <label
+      className="radio-lable"
+    >
+      Electronics
+    </label>
+  </div>
+  <div
+    className="categories-label"
+  >
+    <input
+      defaultChecked={false}
+      id={2}
+      name="formHorizontalRadios"
+      onClick={[Function]}
+      type="radio"
+      value="Food Essentials"
+    />
+    <label
+      className="radio-lable"
+    >
+      Food Essentials
+    </label>
+  </div>
+  <div
+    className="categories-label"
+  >
+    <input
+      defaultChecked={false}
+      id={3}
+      name="formHorizontalRadios"
+      onClick={[Function]}
+      type="radio"
+      value="Home & furniture"
+    />
+    <label
+      className="radio-lable"
+    >
+      Home & furniture
+    </label>
+  </div>
+  <div
+    className="categories-label"
+  >
+    <input
+      defaultChecked={false}
+      id={4}
+      name="formHorizontalRadios"
+      onClick={[Function]}
+      type="radio"
+      value="Fashion"
+    />
+    <label
+      className="radio-lable"
+    >
+      Fashion
+    </label>
+  </div>
+  <div
+    className="categories-label"
+  >
+    <input
+      defaultChecked={false}
+      id={5}
+      name="formHorizontalRadios"
+      onClick={[Function]}
+      type="radio"
+      value="Sports"
+    />
+    <label
+      className="radio-lable"
+    >
+      Sports
+    </label>
+  </div>
+</div>
+`;

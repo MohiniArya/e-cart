@@ -7,7 +7,7 @@ const MyCart = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" render={props => <HomePage {...props} />} />
-        <Route path = "/view-cart"  render={props => <Cart {...props} />} />
+        <Route path="/view-cart" render={props => <Cart {...props} />} />
       </Switch>
     </BrowserRouter>
   );

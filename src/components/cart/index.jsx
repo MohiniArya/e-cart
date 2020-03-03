@@ -4,6 +4,7 @@ import CartItem from "./cart-item";
 import { Link } from "react-router-dom";
 const Cart = () => {
   const [cartData, setCartData] = useState([]);
+
   let total =
     cartData &&
     cartData.reduce(function(prev, cur) {
@@ -13,6 +14,7 @@ const Cart = () => {
   const onCheckout = () => {
     alert("Thank you.Please visit us Again ");
   };
+
   useEffect(() => {
     let data;
     const fetchCartData = () => {
@@ -23,6 +25,7 @@ const Cart = () => {
     };
     return fetchCartData();
   }, []);
+
   return (
     <div>
       <div className="cart-header">

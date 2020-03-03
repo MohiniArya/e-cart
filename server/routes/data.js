@@ -337,3 +337,7 @@
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   }
 ];
+
+module.exports = {
+  products
+}
