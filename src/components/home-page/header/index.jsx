@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.modules.scss";
 import { withRouter, Link } from "react-router-dom";
+
 const Header = props => {
   const { setData, badge, setName } = props;
 
@@ -15,13 +16,13 @@ const Header = props => {
     });
     setData(SearchData);
   };
-  
+
   return (
     <div className="header-container">
       <div className="title"> MyCart </div>
       <div className="search-bar">
         <img src="/images/search-icon.png" alt="logo" />
-        <input type="text" onChange={onSearchChange} />
+        <input type="text" onChange={onSearchChange}  />
       </div>
       <div className="cart-img">
         <Link to="/view-cart">

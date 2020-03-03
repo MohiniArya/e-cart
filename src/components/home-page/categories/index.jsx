@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import "./index.modules.scss";
 import { withRouter } from "react-router-dom";
 const Categories = props => {
@@ -10,20 +10,26 @@ const Categories = props => {
     { value: "Fashion" },
     { value: "Sports" }
   ];
-  const [screener,setScreener] = useState("All")
-   const {setIsCategoryListOpen,isCategoryListOpen,setName,setData} = props
+
+  const {
+    setIsCategoryListOpen,
+    isCategoryListOpen,
+    setName,
+    setData,
+    screener,
+    setScreener
+  } = props;
 
   const getNewList = name => {
-    setName("Select") 
+    setName("Select");
     setIsCategoryListOpen(false);
-    setScreener(name)
+    setScreener(name);
     let Products = localStorage.getItem("products")
       ? JSON.parse(localStorage.getItem("products"))
       : [];
     if (name === "All") {
       setData(Products);
     } else {
-      Products.filter(item => item.category === name);
       let newCollection = Products.filter(item => item.category === name);
       setData(newCollection);
     }

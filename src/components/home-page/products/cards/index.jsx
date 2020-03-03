@@ -10,7 +10,6 @@ const Cards = props => {
       ? JSON.parse(localStorage.getItem("cart"))
       : [];
     newData.push(productInfo);
-    debugger;
     setBadge(newData.length);
     localStorage.setItem("cart", JSON.stringify(newData));
   };

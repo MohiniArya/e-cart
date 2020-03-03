@@ -15,7 +15,7 @@ const CartItem = props => {
       localStorage.setItem("cart", JSON.stringify(newData));
     }
   };
-  
+
   return (
     <div className="cart-items" key={id}>
       <div className="remove-icon" onClick={e => onHandleRemove(e)}>
@@ -28,13 +28,13 @@ const CartItem = props => {
       <div className="price-box">Price Rs {price}</div>
     </div>
   );
-  }
-  CartItem.defaultProps = {
-    cartInfo: {
-      name: "",
-      price: 0
-    },
-    setCartData: false,
-    id: 0,
-  };
-  export default withRouter(CartItem);
+};
+CartItem.defaultProps = {
+  cartInfo: {
+    name: "",
+    price: 0
+  },
+  setCartData: false,
+  id: 0
+};
+export default withRouter(CartItem);

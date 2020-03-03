@@ -25,7 +25,7 @@
   },
   {
     id: 4,
-    name: "Product 4",
+    name: "Sports Product 1",
     category: "Sports",
     price: 1500,
     description:
@@ -73,7 +73,7 @@
   },
   {
     id: 10,
-    name: "Product 6",
+    name: "Sports Product 1",
     category: "Sports",
     price: 900,
     description:
@@ -97,15 +97,15 @@
   },
   {
     id: 13,
-    name: "Product 6",
+    name: "Sports Product 3",
     category: "Sports",
-    price: 900,
+    price: 400,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 14,
-    name: "Product 6",
+    name: "Tea",
     category: "Food Essentials",
     price: 900,
     description:
@@ -113,7 +113,7 @@
   },
   {
     id: 15,
-    name: "Product 6",
+    name: "Atta",
     category: "Home & furniture",
     price: 900,
     description:
@@ -121,33 +121,33 @@
   },
   {
     id: 16,
-    name: "Product 6",
+    name: "Fitness Band",
     category: "Sports",
-    price: 900,
+    price: 1000,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 17,
-    name: "Product 6",
+    name: "Furniture product",
     category: "Home & furniture",
-    price: 900,
+    price: 1020,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 18,
-    name: "Product 6",
+    name: "Rice",
     category: "Food Essentials",
-    price: 900,
+    price: 910,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 19,
-    name: "Product 6",
+    name: "Door knobs",
     category: "Home & furniture",
-    price: 900,
+    price: 100,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
@@ -161,39 +161,39 @@
   },
   {
     id: 21,
-    name: "Product 6",
+    name: "Sports Product 5",
     category: "Sports",
-    price: 900,
+    price: 90,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 22,
-    name: "Product 6",
+    name: "Product 10",
     category: "Home & furniture",
-    price: 900,
+    price: 2200,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 23,
-    name: "Product 6",
+    name: "Food Product 12",
     category: "Food Essentials",
-    price: 900,
+    price: 100,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 24,
-    name: "Product 6",
+    name: "Product 3",
     category: "Home & furniture",
-    price: 900,
+    price: 902,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 25,
-    name: "Product 6",
+    name: "Product 1",
     category: "Home & furniture",
     price: 900,
     description:
@@ -202,7 +202,7 @@
 
   {
     id: 26,
-    name: "Product 6",
+    name: "Sports Product 6",
     category: "Sports",
     price: 900,
     description:
@@ -210,15 +210,15 @@
   },
   {
     id: 27,
-    name: "Product 6",
+    name: "Food Product 2",
     category: "Food Essentials",
-    price: 900,
+    price: 920,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 28,
-    name: "Product 6",
+    name: "Sports Product 7",
     category: "Sports",
     price: 900,
     description:
@@ -226,15 +226,15 @@
   },
   {
     id: 29,
-    name: "Product 6",
+    name: "Food Product 3",
     category: "Food Essentials",
-    price: 900,
+    price: 990,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 30,
-    name: "Product 6",
+    name: "Sports Product 8",
     category: "Sports",
     price: 900,
     description:
@@ -242,7 +242,7 @@
   },
   {
     id: 31,
-    name: "Product 6",
+    name: "Food Product 8",
     category: "Food Essentials",
     price: 900,
     description:
@@ -250,7 +250,7 @@
   },
   {
     id: 32,
-    name: "Product 6",
+    name: "Sports Product 7",
     category: "Sports",
     price: 900,
     description:
@@ -266,9 +266,9 @@
   },
   {
     id: 34,
-    name: "Product 6",
+    name: "Sports New Product 6",
     category: "Sports",
-    price: 900,
+    price: 1100,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
@@ -282,9 +282,9 @@
   },
   {
     id: 36,
-    name: "Product 6",
+    name: "Cricket Kit",
     category: "Sports",
-    price: 900,
+    price: 3440,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
@@ -298,23 +298,23 @@
   },
   {
     id: 38,
-    name: "Product 6",
+    name: "Football",
     category: "Sports",
-    price: 900,
+    price: 300,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 39,
-    name: "Product 6",
+    name: "chips ",
     category: "Food Essentials",
-    price: 900,
+    price: 10,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 40,
-    name: "Product 6",
+    name: "Watch",
     category: "Electronics",
     price: 900,
     description:
@@ -322,20 +322,100 @@
   },
   {
     id: 41,
-    name: "Product 6",
+    name: "Ac remote",
     category: "Electronics",
-    price: 900,
+    price: 120,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
   },
   {
     id: 42,
-    name: "Product 6",
+    name: "Oreo",
     category: "Food Essentials",
+    price: 30,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 43,
+    name: "t-shirts",
+    category: "Fashion",
+    price: 300,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 44,
+    name: "Jeans",
+    category: "Fashion",
+    price: 100,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 45,
+    name: "track-pant",
+    category: "Fashion",
+    price: 200,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 46,
+    name: "Shorts",
+    category: "Fashion",
+    price: 300,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 47,
+    name: "Kurtis",
+    category: "Fashion",
+    price: 1700,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 48,
+    name: "Shoes",
+    category: "Fashion",
+    price: 500,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 49,
+    name: "Product 9",
+    category: "Fashion",
+    price: 600,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 50,
+    name: "Product 10",
+    category: "Fashion",
+    price: 870,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
+  {
+    id: 51,
+    name: "Product 11",
+    category: "Fashion",
     price: 900,
     description:
       "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
-  }
+  },
+  {
+    id: 52,
+    name: "Product 12",
+    category: "Fashion",
+    price: 1000,
+    description:
+      "Lorem ipsum dolor sit amet, iusto appellantur vix te, nam affert feugait menandri eu. Magna simul ad est. Nostrum neglegentur ius at, at pertinax repudiare vel. Vim an adolescens quaerendum."
+  },
 ];
 
 module.exports = {
