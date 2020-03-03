@@ -36,4 +36,5 @@ yarn
 nodemon server
 <!-- /*  To start  React */ -->
 yarn start 
-
+<!-- / To run test cases*/ -->
+yarn test
