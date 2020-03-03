@@ -51,12 +51,10 @@ const HomePage = () => {
           setData={setData}
           badge={badge}
           setName={setName}
-          setScreener={setScreener}
         />
         <div className="page-content">
           <Categories
             setName={setName}
-            data={data}
             setData={setData}
             isCategoryListOpen={isCategoryListOpen}
             setIsCategoryListOpen={setIsCategoryListOpen}
@@ -70,16 +68,13 @@ const HomePage = () => {
                 setName={setName}
                 data={data}
                 setData={setData}
-                isCategoryListOpen={isCategoryListOpen}
                 setIsCategoryListOpen={setIsCategoryListOpen}
               />
             )}
             <ProductContainer
               data={data}
-              setData={setData}
               setBadge={setBadge}
               badge={badge}
-              name={name}
             />
           </div>
         </div>
