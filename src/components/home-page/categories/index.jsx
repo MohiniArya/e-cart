@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import "./index.modules.scss";
 import { withRouter } from "react-router-dom";
 const Categories = props => {
@@ -10,22 +10,31 @@ const Categories = props => {
     { value: "Fashion" },
     { value: "Sports" }
   ];
-  const [screener,setScreener] = useState("All")
+
+  const {
+    setIsCategoryListOpen,
+    isCategoryListOpen,
+    setName,
+    setData,
+    screener,
+    setScreener
+  } = props;
+
   const getNewList = name => {
-    props.setName("Select") 
-    props.setIsCategoryListOpen(false);
-    setScreener(name)
+    setName("Select");
+    setIsCategoryListOpen(false);
+    setScreener(name);
     let Products = localStorage.getItem("products")
       ? JSON.parse(localStorage.getItem("products"))
       : [];
     if (name === "All") {
-      props.setData(Products);
+      setData(Products);
     } else {
-      Products.filter(item => item.category === name);
       let newCollection = Products.filter(item => item.category === name);
-      props.setData(newCollection);
+      setData(newCollection);
     }
   };
+
   const onHandleClick = event => {
     const { value } = event.target;
     switch (value) {
@@ -50,12 +59,13 @@ const Categories = props => {
     }
   };
   const onHandleCloseCategory = () => {
-    props.setIsCategoryListOpen(false);
+    setIsCategoryListOpen(false);
   };
+
   return (
     <div
       className={`${
-        window.innerWidth > 720 || props.isCategoryListOpen === true
+        window.innerWidth > 720 || isCategoryListOpen === true
           ? "multiple-categories"
           : "multiple-categories-hidelist"
       }`}
@@ -73,7 +83,7 @@ const Categories = props => {
               value={lable.value}
               id={index}
               onClick={e => onHandleClick(e)}
-              checked={screener === lable.value ? true : false}
+              defaultChecked={screener === lable.value ? true : false}
             />
             <label className="radio-lable">{lable.value}</label>
           </div>

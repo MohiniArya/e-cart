@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Actions Snapshots matches the default snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="image-container"
+  >
+    <img
+      alt="logo"
+      src="/images/logo.png"
+    />
+  </div>
+  <div
+    className="product-name"
+  >
+    <h3>
+      
+    </h3>
+    <p>
+      
+    </p>
+  </div>
+  <div>
+    <h5>
+      Price
+    </h5>
+    <p>
+       Rs 
+      0
+       
+    </p>
+    <div
+      className="add-to-cart"
+    >
+      <button
+        onClick={[Function]}
+        value={0}
+      >
+        Add
+      </button>
+    </div>
+  </div>
+</div>
+`;

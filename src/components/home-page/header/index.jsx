@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.modules.scss";
-import { withRouter,Link } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 const Header = props => {
-  const {setData ,badge,setName} = props;
+  const { setData, badge, setName } = props;
+
   const onSearchChange = event => {
-    setName("Select")  
+    setName("Select");
     let Products = localStorage.getItem("products")
       ? JSON.parse(localStorage.getItem("products"))
       : [];
@@ -18,8 +19,8 @@ const Header = props => {
     <div className="header-container">
       <div className="title"> MyCart </div>
       <div className="search-bar">
-       <img src="/images/search-icon.png" alt="logo" />
-        <input type="text" onChange={onSearchChange} />
+        <img src="/images/search-icon.png" alt="logo" />
+        <input type="text" onChange={onSearchChange}  />
       </div>
       <div className="cart-img">
         <Link to="/view-cart">

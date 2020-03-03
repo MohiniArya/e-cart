@@ -3,31 +3,35 @@ import "./index.modules.scss";
 import { withRouter } from "react-router-dom";
 const SortAndFilter = props => {
   const SELECT_SORT = [
-    {value: "Select"},
+    { value: "Select" },
     { value: "Highest to lowest" },
     { value: "Lowest to highest" }
   ];
+  const { setName, setData, setIsCategoryListOpen, data } = props;
+
   const onSortChange = event => {
     event.preventDefault();
     if (event.target.value !== null) {
-      props.setName(event.target.value);
+      setName(event.target.value);
       if (event.target.value === "Highest to lowest") {
         let sortedData = props.data.sort((a, b) => {
           return b.price - a.price;
         });
-        props.setData(sortedData);
+        setData(sortedData);
       }
       if (event.target.value === "Lowest to highest") {
-        let sortedData = props.data.sort((a, b) => {
+        let sortedData = data.sort((a, b) => {
           return a.price - b.price;
         });
-        props.setData(sortedData);
+        setData(sortedData);
       }
     }
   };
+
   const onHandleCategories = () => {
-    props.setIsCategoryListOpen(true);
+    setIsCategoryListOpen(true);
   };
+
   return (
     <div className="sort-container">
       <div className="category-link" onClick={onHandleCategories}>

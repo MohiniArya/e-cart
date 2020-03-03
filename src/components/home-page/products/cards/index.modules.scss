@@ -7,8 +7,9 @@
   border-bottom: 1px solid black;
   .image-container {
     border-radius: 50px;
+    align-self: center;
     img {
-      min-height: 250px;
+      min-height: 100px;
       width: 100px;
     }
   }
@@ -32,6 +33,11 @@
 @media only screen and (min-width: 720px) {
   .card {
     padding: 10px 20px;
+    .image-container {
+     img{
+      width: 250px;
+     }
+    }
     .product-name {
       float: left;
       padding: 10px;

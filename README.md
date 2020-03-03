@@ -8,6 +8,7 @@ This simple shopping cart prototype shows how React components and Node Js can b
 
 - Add and remove products from the  cart
 - Sort products by highest to lowest and lowest to highest price
+- Search products for all categories.
 - Filter products by categories
 - Products persist in cart even after page reloads
 - Responsive design for desktop and mobile
