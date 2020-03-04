@@ -29,12 +29,14 @@ This simple shopping cart prototype shows how React components and Node Js can b
 
 ## Getting started
 
-<!-- / First, Install the needed packages */ -->
-yarn
+- First, Install the needed packages
+  - yarn (can also use npm install)
 
-<!-- /*  To start  Node  */ -->
-nodemon server
-<!-- /*  To start  React */ -->
-yarn start 
-<!-- / To run test cases*/ -->
-yarn test
+- To start  Node 
+  - Assuming node is installed(if not please install node)
+    - nvm use (if needed)
+    - node server 
+- To start  React 
+  - yarn start / npm start
+- To run test cases
+  - yarn test / npm test
